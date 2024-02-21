@@ -1,0 +1,177 @@
+.cases-show-page-ctr {
+    width: 90vw;
+    max-width: 1200px;
+    margin: auto auto;
+}
+
+.open-ai-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.info-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.share-icon {
+    border: 2px solid lightgray;
+    padding: 5px;
+    font-size: 30px;
+}
+
+hr.lightgrey {
+    border-color: rgba(255, 255, 255, 0.878);
+}
+
+.case-show-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.75fr;
+    /* grid-template-rows: 1fr; */
+    /* border: 1px solid red; */
+}
+
+/* .case-show-grid > div {
+    border: 1px solid grey;
+} */
+
+.cases-show-page-ctr img {
+    /* width: 40vw; */
+    width: 100%;
+    display: inline-block;
+}
+
+.red-text {
+    color: var(--red);
+}
+
+.green-text {
+    color: green;
+}
+
+.grey-text {
+    color: rgb(73, 72, 72)
+}
+
+.fading-text {
+    opacity: 1;
+    -webkit-animation: 3s ease 0s normal forwards 1 fadeout;
+    animation: 3s ease 0s normal forwards 1 fadeout;
+}
+
+@keyframes fadeout {
+    0% { opacity:1; }
+    66% { opacity:1; }
+    100% { opacity:0; }
+}
+
+@-webkit-keyframes fadeout {
+    0% { opacity:1; }
+    66% { opacity:1; }
+    100% { opacity:0; }
+}
+
+
+.mc-li {
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    /* border: 1px solid red; */
+
+}
+
+.unanswered .mc-li:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--red);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.open-ai-ctr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.open-ai-ctr .interactions {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.open-ai-ctr .arrows-ctr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.open-ai-ctr .arrow-icon {
+    font-size: 20px;
+}
+
+.interaction-text {
+    text-align: left;
+    padding: 8px;
+    margin: 0;
+}
+
+.choices-ctr li {
+    margin: 10px;
+}
+
+.correct-choice {
+    border: 2px solid green;
+}
+
+.incorrect-choice {
+    border: 2px solid var(--red);
+}
+
+.chosen {
+    font-weight: 900;
+}
+
+span.percentage {
+    text-align: left;
+}
+
+.description {
+    text-align: left;
+    padding: 15px
+}
+
+.wrong {
+    color: grey;
+    cursor: none;
+}
+
+
+/* below styling is not working */
+.wrong:hover {
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+.open-ai-intro {
+    margin: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+    .case-show-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr; */
+        /* border: 1px solid red; */
+    }
+
+}

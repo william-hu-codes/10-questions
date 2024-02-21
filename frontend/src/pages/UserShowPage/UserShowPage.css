@@ -1,0 +1,19 @@
+.user-show-page-ctr .stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.user-show-page-ctr .stats h4 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+.user-show-page-ctr .stats p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}

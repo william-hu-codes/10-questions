@@ -1,0 +1,111 @@
+.cases-new-page-ctr {
+    width: 90vw;
+    max-width: 1000px;
+    margin: auto auto;
+}
+
+.image-preview {
+    max-width: 150px;
+    margin: 15px;
+}
+
+.cases-new-page-ctr form {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 15px;
+}
+
+.cases-new-page-ctr form label{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+input.title {
+    grid-column: span 2;
+}
+
+input.primary-illness {
+    grid-column: span 2;
+}
+
+.create-case-button {
+    margin-top: 2rem;
+    background-color: maroon;
+    grid-column: span 2;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* .supporting-factors, .unsupporting-factors, .multiple-choices, .description {
+    grid-column: span 2;
+} */
+
+.pertinent-positive {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+}
+
+.spacer {
+    width: 4vw;
+}
+
+.move-down {
+    margin-top: 1rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+}
+
+.left-align {
+    display: flex;
+    flex-direction: column;
+}
+
+.indent {
+    position: relative;
+    left: 2rem;
+    text-align: left;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.small-break {
+    height: 0.5rem;
+}
+
+.stacked {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stacked label {
+    margin-right: 0.6rem;
+}
+
+
+.inline {
+    display: flex;
+    flex-direction: row;
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+
+.smaller-button {
+    height: 0.3rem;
+}
+
+.pertinent-positive-text {
+    margin-left: 0rem;
+}
+
+/* .unsupporting-factors {
+    grid-column: span 2;
+} */
+
+.cases-new-page-ctr li {
+    text-align: left;
+}

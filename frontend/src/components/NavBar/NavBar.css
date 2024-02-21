@@ -1,0 +1,46 @@
+nav {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* align-items: flex-end; */
+    gap: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-top: 2px solid lightgrey;
+    border-bottom: 2px solid lightgray;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.nav-link {
+    font-size: 12px;
+}
+
+.logout {
+    margin-left: auto;
+}
+
+.login {
+    margin-left: auto;
+}
+
+.profile-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    /* border-top: 3px solid red; */
+    border-bottom: 2px solid var(--red);
+}
+
+.active-link {
+    border-bottom: 2px solid var(--red);
+}

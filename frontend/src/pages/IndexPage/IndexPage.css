@@ -1,0 +1,45 @@
+.index-page-ctr {
+    width: 90vw;
+    max-width: 1000px;
+    margin: auto auto;
+    padding: 4vh 0;
+}
+
+.index-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.case-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid lightgray;
+    /* width: 20vw; */
+    /* height: 10vw; */
+}
+
+.case-card:hover {
+    box-shadow: 0 0.1rem 0.2rem 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media only screen and (max-width: 1100px) {
+    .index-page-ctr {
+        max-width: 700px;
+    }
+    .index-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .index-page-ctr {
+        max-width: 700px;
+    }
+    .index-grid {
+        grid-template-columns: 1fr;
+    }
+}

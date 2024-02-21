@@ -1,0 +1,11 @@
+.banner-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.banner-text:hover {
+    cursor: pointer;
+}
